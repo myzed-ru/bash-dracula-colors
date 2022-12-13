@@ -1,5 +1,8 @@
 # bash-dracula-colors
 For using custom bash consle you should download **.bashrc_colors** and copy to home directory
+```shell
+wget https://raw.githubusercontent.com/myzed-ru/bash-dracula-colors/main/.bashrc_colors
+```
 
 After that you should add code to .bashrc file.
 Follow code for installation:
