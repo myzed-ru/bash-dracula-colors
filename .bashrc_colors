@@ -40,6 +40,7 @@ if [ "$color_prompt" = yes ]; then
         user_color='\[\033[1;31m\]'
         # Skull emoji for root terminal
         prompt_symbol=💀
+        host_color='\[\033[1;36m\]'
     fi
     case "$PROMPT_ALTERNATIVE" in
         twoline)
@@ -53,6 +54,7 @@ if [ "$color_prompt" = yes ]; then
     unset user_color
     unset promt_symbol
     unset host_color
+    unset delimeter_color
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
