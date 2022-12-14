@@ -31,7 +31,7 @@ if [ "$color_prompt" = yes ]; then
 
     prompt_color='\[\033[0;36m\]'
     delimeter_color='\[\033[0;32m\]'
-    prompt_symbol=㉿
+    prompt_symbol=〄
     user_color='\[\033[1;35m\]'
     host_color='\[\033[1;34m\]'
 
